@@ -3,8 +3,8 @@
 
 	<!-- will fail once -->
 	<node pkg="gpsd_client" type="gpsd_client" name="gpsd_client" output="screen" respawn="true">
-		<param name="_host" value="localhost" />
-		<param name="_port" value="2947" />
-		<param name="_use_gps_time" value="false" />
+		<param name="host" value="localhost" />
+		<param name="port" value="2947" />
+		<param name="use_gps_time" value="false" />
 	</node>
 </launch>
